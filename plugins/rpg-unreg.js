@@ -17,5 +17,4 @@ const handler = async function(m, {args}) {
 handler.help = ['', 'ister'].map((v) => 'unreg' + v + ' <numero de serie>');
 handler.tags = ['xp'];
 handler.command = /^unreg(ister)?$/i;
-handler.register = true;
 export default handler;
