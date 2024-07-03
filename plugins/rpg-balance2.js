@@ -38,8 +38,6 @@ const handler = async (m, { args, usedPrefix }) => {
 ╠ #создатель
 ╚════════
 `;
-
-  conn.sendButton(m.chat, caption, null, [['Создатель ☘️', '#создатель']], m);
 };
 
 handler.customPrefix = /а|@/i;
