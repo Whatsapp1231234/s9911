@@ -396,7 +396,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `_*${tradutor.texto28[0]}*_\n\n*${tradutor.texto28[1]}* _${type}_ ** ${isEnable ? '✅' : '❎'} *${tradutor.texto28[2]}* ${isAll ? 'бота' : isUser ? '' : 'чата'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `_*${tradutor.texto28[0]}*_\n\n*${tradutor.texto28[1]}* _${type}_  ${isEnable ? '✅' : '❎'} *${tradutor.texto28[2]}* ${isAll ? 'бота' : isUser ? '' : 'чата'}`}, {quoted: m});
   //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
 };
 handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?[01])$/i;
