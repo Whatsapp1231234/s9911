@@ -8,14 +8,13 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   else global.db.data.chats[who].expired = false
   
   let caption = `**`
-  conn.sendButton(m.chat, caption, wm, null, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+  conn.sendButton(m.chat, caption, wm, null, [['Основное Меню ☘️', `/меню`]], m)
   
 }
 handler.help = ['delexpired']
 handler.tags = ['owner']
 handler.command = /^(сбросАренды|delbottemporal|delbotemporal)$/i
 handler.owner = true
-handler.register = true
 handler.group = true
 
 export default handler
