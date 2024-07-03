@@ -14,7 +14,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   ${tradutor.texto1[1]}
 `.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://github.com`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2[0]}`,
     'fileLength': 99999999999999,

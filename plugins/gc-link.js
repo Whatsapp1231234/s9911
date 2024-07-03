@@ -12,7 +12,7 @@ const handler = async (m, {conn, args}) => {
       title: tradutor.texto1[0],
       body: 'Хулиган',
       previewType: 0, thumbnail: fs.readFileSync('./Menu2.jpg'),
-      sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}});
+      sourceUrl: `https://github.com`}}});
 };
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
