@@ -10,9 +10,14 @@ const handler = async (m, { args, usedPrefix }) => {
   if (m.isGroup) {
     who = args[1] ? args[1] : m.chat;
   } else {
-    who = args[1];
+    who = args[1] ? args[1] : m.sender;
   }
-  const name = conn.getName(who);
+
+  let name = "Пользователь";
+  if (who) {
+    name = conn.getName(who) || "Пользователь";
+  }
+
   let caption = `
 Здравствуйте. Имеется бот:
  _*Хулиган*_бот-админ
