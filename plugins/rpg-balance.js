@@ -37,7 +37,7 @@ const handler = async (m, {usedPrefix}) => {
 
 `);
 };
-handler.customPrefix = /зр|@/i;
+handler.customPrefix = /з|@/i;
 handler.tags = ['anonymous'];
 handler.command = ['аказать'];
 handler.private = true;
