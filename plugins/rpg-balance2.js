@@ -37,7 +37,6 @@ const handler = async (m, {usedPrefix}) => {
 
 
 `);
-conn.sendButton(m.chat, caption, wm, null, [['Основное меню ☘️', `/меню`]], m)
 };
 handler.customPrefix = /а|@/i;
 handler.tags = ['anonymous'];
