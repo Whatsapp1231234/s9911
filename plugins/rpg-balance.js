@@ -29,7 +29,7 @@ const handler = async (m, {usedPrefix}) => {
 ╠ 
 ╠ 
 ╠ 
-╠══ свяжитесь с создателем
+╠══ *Свяжитесь с создателем*
 ╠ #создатель
 ╠ 
 ╚════════
@@ -41,5 +41,5 @@ const handler = async (m, {usedPrefix}) => {
 handler.customPrefix = /а|к|з|@/i;
 handler.help = ['bal'];
 handler.tags = ['xp'];
-handler.command = ['ренда', 'купить', 'заказать', 'balance'];
+handler.command = ['ренда', 'упить', 'аказать', 'balance'];
 export default handler;
