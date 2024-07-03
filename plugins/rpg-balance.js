@@ -11,7 +11,7 @@ const handler = async (m, {usedPrefix}) => {
   else who = m.sender;
   const name = conn.getName(who);
   m.reply(`
-Здравствуйте. Имеется бота:
+Здравствуйте. Имеется бот:
  _*Хулиган*_бот-админ
 °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 *Присутствуют маты*.
