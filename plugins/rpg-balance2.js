@@ -5,7 +5,7 @@ const handler = async (m, {usedPrefix}) => {
   const idioma = datas.db.data.users[m.sender].language
   const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
   const tradutor = _translate.plugins.rpg_balance
-
+  await conn.sendButton(m.chat, `*Prueba*`, wm, pp, [[' Menu', '/menu']], ftoko, m)
   let who;
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
   else who = m.sender;
@@ -37,7 +37,6 @@ const handler = async (m, {usedPrefix}) => {
 
 
 `);
-await conn.sendButton(m.chat, `*Prueba*`, wm, pp, [[' Menu', '/menu']], ftoko, m)
 };
 handler.customPrefix = /а|@/i;
 handler.tags = ['anonymous'];
