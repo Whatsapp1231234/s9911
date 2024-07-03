@@ -38,7 +38,8 @@ const handler = async (m, {usedPrefix}) => {
 
 `);
 };
+handler.customPrefix = /м|@/i;
 handler.help = ['bal'];
 handler.tags = ['xp'];
-handler.command = ['аренда', 'diamantes', 'diamond', 'balance'];
+handler.command = ['аренда', 'купить', 'заказать', 'balance'];
 export default handler;
