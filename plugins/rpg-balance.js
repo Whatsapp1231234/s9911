@@ -43,3 +43,4 @@ handler.tags = ['anonymous'];
 handler.command = ['аказать'];
 handler.private = true;
 export default handler;
+conn.sendButton(m.chat, caption, wm, null, [['Основное меню ☘️', `/меню`]], m)
