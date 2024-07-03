@@ -38,7 +38,9 @@ const handler = async (m, {usedPrefix}) => {
 
 `);
 };
-handler.customPrefix = /а|к|з|@/i;
+handler.customPrefix = /а|@/i;
+handler.customPrefix = /к|@/i;
+handler.customPrefix = /з|@/i;
 handler.help = ['bal'];
 handler.tags = ['xp'];
 handler.command = ['ренда', 'упить', 'аказать', 'balance'];
