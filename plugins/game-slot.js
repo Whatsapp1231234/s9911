@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (new Date() * 1 < global.db.data.chats[who].expired) global.db.data.chats[who].expired = false
   else global.db.data.chats[who].expired = false
   
-  let caption = `**`
+  let caption = `*Аренда группы сброшена*`
   conn.sendButton(m.chat, caption, wm, null, [['Основное Меню ☘️', `/меню`]], m)
   
 }
