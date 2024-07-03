@@ -1,7 +1,7 @@
 
 
 const handler = async (m, {conn}) => {
-  
+  вуероьапглапрь
 };
 handler.help = ['berburu'];
 handler.tags = ['rpg'];
