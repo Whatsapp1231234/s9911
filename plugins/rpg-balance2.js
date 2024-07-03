@@ -44,5 +44,4 @@ handler.customPrefix = /а|@/i;
 handler.tags = ['anonymous'];
 handler.command = ['ренда'];
 handler.private = true;
-
 export default handler;
