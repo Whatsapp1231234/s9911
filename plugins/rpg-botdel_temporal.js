@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     else global.db.data.chats[who].expired = false
     
     let caption = `*Истечение срока действия для этой группы было успешно снято*`
-    conn.sendButton(m.chat, caption, wm, null, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+    conn.sendButton(m.chat, caption, wm, null, [['Основное меню ☘️', `/меню`]], m)
     
 }
 handler.help = ['delexpired']
