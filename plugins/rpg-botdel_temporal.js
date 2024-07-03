@@ -29,14 +29,13 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ╠ #создатель
 ╠ 
 ╚════════*`
-    conn.sendButton(m.chat, caption, wm, null, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+    conn.sendButton(m.chat, caption, wm, null, [['Создатель☘️', `/создатель`]], m)
     
 }
-handler.help = ['delexpired']
-handler.tags = ['owner']
-handler.command = /^(сбросить|delbottemporal|delbotemporal)$/i
-handler.owner = true
-handler.group = true
+handler.customPrefix = /з|@/i;
+handler.tags = ['anonymous'];
+handler.command = ['аказать'];
+handler.private = true;
 
 export default handler
 
