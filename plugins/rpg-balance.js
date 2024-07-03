@@ -11,16 +11,9 @@ const handler = async (m, {usedPrefix}) => {
   else who = m.sender;
   const name = conn.getName(who);
   m.reply(`
-${tradutor.texto1[0]}
-${tradutor.texto1[1]} ${name}
-${tradutor.texto1[2]} ${global.db.data.users[who].limit}💎
-${tradutor.texto1[3]}
-${tradutor.texto1[4]} 
-${tradutor.texto1[5]}
-❏ *${usedPrefix}buy ${tradutor.texto1[6]}
-❏ *${usedPrefix}buyall*`);
+спроларнгдешгд`);
 };
 handler.help = ['bal'];
 handler.tags = ['xp'];
-handler.command = ['bal', 'diamantes', 'diamond', 'balance'];
+handler.command = ['все', 'diamantes', 'diamond', 'balance'];
 export default handler;
