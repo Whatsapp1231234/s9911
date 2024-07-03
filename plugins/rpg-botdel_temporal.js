@@ -13,7 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['delexpired']
 handler.tags = ['owner']
-handler.command = /^(время|delbottemporal|delbotemporal)$/i
+handler.command = /^(сбросАренды|delbottemporal|delbotemporal)$/i
 handler.owner = true
 handler.group = true
 
