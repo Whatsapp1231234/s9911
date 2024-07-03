@@ -19,7 +19,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['expired <Дней>']
 handler.tags = ['owner']
-handler.command = /^(аренда|addexpired)$/i
+handler.command = /^(срокАренды|addexpired)$/i
 handler.rowner = true
 export default handler
 
