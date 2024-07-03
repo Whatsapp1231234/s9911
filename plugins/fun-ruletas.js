@@ -29,7 +29,6 @@ handler.tags = ['xp'];
 handler.command = /^(ruletas|ruleta|suerte)$/i
 handler.fail = null;
 handler.group = true
-handler.register = true
 export default handler;
 
 function msToTime(duration) {

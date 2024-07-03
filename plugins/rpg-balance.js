@@ -39,7 +39,7 @@ const handler = async (m, {usedPrefix}) => {
 `);
 };
 handler.customPrefix = /з|@/i;
-handler.help = ['bal'];
-handler.tags = ['xp'];
-handler.command = ['аказать'];
+handler.tags = ['anonymous'];
+handler.command = ['казать'];
+handler.private = true;
 export default handler;
