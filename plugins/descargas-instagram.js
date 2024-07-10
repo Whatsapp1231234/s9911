@@ -58,7 +58,7 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['checkrents']
 handler.tags = ['owner']
-handler.command = /^(чекАренды)$/i
+handler.command = /^(чекАренд)$/i
 handler.rowner = true
 
 export default handler;
